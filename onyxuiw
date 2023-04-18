@@ -1,3 +1,6 @@
+local Library = {};
+local spr = loadstring(game:HttpGet("https://raw.githubusercontent.com/madmodss/OnyxUi/main/wui"))()
+
 local plr = game:GetService('Players').LocalPlayer
 local mouse = plr:GetMouse()
 local Camera = workspace.CurrentCamera;
